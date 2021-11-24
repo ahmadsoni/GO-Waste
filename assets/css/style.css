@@ -138,6 +138,7 @@ ul{
     font-weight: 700;
     text-transform: capitalize;
     text-align: center;
+    margin: 0;
 }
 
 .section-title h2 span{
@@ -150,7 +151,7 @@ ul{
     margin-top: 20px;
 }
 .owl-carousel button.owl-dot{
-    height: 5px;
+    height: 6px;
     width: 24px;
     background-color: #dddddd;
     display: inline-block;
@@ -448,4 +449,27 @@ Features Section
     font-weight: 500;
     color: var(--black-900);
     margin: 0 0 20px;
+}
+.features .features-item p{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: var(--black-400);
+    margin: 0 0 15px;
+}
+/* ---------
+Fun Fact Section
+------------- */
+.fun-fact{
+    background-color: var(--black-100);
+}
+.fun-facts-img img{
+    max-width: 250px;
+    width: 100%;
+    box-shadow: var(--shadow-black-100);
+    border-radius: 32px;
+    animation: bouceTop_01 3s ease infinite;
+}
+.fun-fact .section-title h2{
+    text-align: left;
 }
