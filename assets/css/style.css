@@ -100,6 +100,11 @@ ul{
         box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
     }
 }
+@media all and (max-width:770px) {
+    .home-img img{
+        display: none;
+    }
+  }
 .effect-wrap .effect{
     position: absolute;
     z-index: -1; 
@@ -272,7 +277,9 @@ Home Section
     box-shadow: var(--shadow-black-100);
     border-radius: 32px;
     animation: bouceTop_01 3s ease infinite;
-}
+    }
+  
+
 
 .home-img{
     position: relative;
