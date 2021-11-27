@@ -21,7 +21,7 @@ Global Css
     --black-400:#555555;
     --black-100:#f7f7f7;
     --black-000:#ffffff;
-    --black-alpa-100:rgba(0,0,0,0.5);
+    --black-alpa-100:rgba(0, 0, 0, 0.274);
 }
 
 body{
@@ -702,4 +702,64 @@ Testimonial Section
     display: inline-block;
     font-size: 16px;
     color: var(--color-2);
+}
+/* ------
+Lisensi Pricing
+----------------- */
+.pricing-plan{
+    box-shadow: var(--shadow-black-100);
+    border-radius: 10px;
+}
+.pricing-plan .pricing-header{
+    padding: 20px 30px;
+    border-bottom:  1px solid var(--black-alpa-100); 
+}
+.pricing-plan .pricing-header h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--black-900);
+    margin: 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.pricing-plan .pricing-price{
+    padding: 40px 30px;
+    display: flex;
+    justify-content: center;
+    line-height: 0.7;
+}
+.pricing-plan .pricing-price .currency{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--black-400);
+    margin-right: 5px;
+    align-self: flex-start;
+}
+.pricing-plan .pricing-price .price{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+.pricing-plan .pricing-price .periode{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--black-400);
+    margin-right: 5px;
+    align-self: flex-end;
+    text-transform: uppercase;
+}
+.pricing-plan .pricing-body{
+    padding: 0 30px;
+}
+.pricing-plan .pricing-body ul li{
+   font-size: 16px;
+   font-weight: 300;
+   color: var(--black-400);
+   padding: 10px 0;
+   border-bottom: 1 px solid var(--black-alpa-100);
+   line-height: 26px;
+}
+
+.pricing-plan .pricing-footer{
+    padding: 20px 30px 30px;
 }
