@@ -81,9 +81,9 @@ $(document).ready(function() {
     
     /* ----------Testimonials carousel------ */
     $('.team-carousel').owlCarousel({
-        loop:true,
+        // loop:true,
         margin:0,
-        autoplay:true,
+        // autoplay:true,
         responsiveClass:true,
         responsive:{
             0:{
