@@ -83,6 +83,10 @@ $(document).ready(function() {
             }
         }
     });
+    /* ----------Page Scrolling - ScroIIit------ */
+    $.scrollIt({
+        topOffset: -50
+    });
 
 });
 

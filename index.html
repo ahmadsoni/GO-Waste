@@ -29,29 +29,29 @@
         <div  class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
+                <a class="nav-link active" data-scroll-nav="0" href="#">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" data-scroll-nav="1" href="#">Features</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Screenshots</a>
+                <a class="nav-link" data-scroll-nav="2" href="#">Screenshots</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Testimonial</a>
+                <a class="nav-link" data-scroll-nav="4"  href="#">Testimonial</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">License</a>
+                <a class="nav-link" data-scroll-nav="5" href="#">License</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" data-scroll-nav="6" href="#">Contact</a>
               </li>
           </ul>
         </div>
     </div>
       </nav>
     <!-- Navbar akhir -->
-      <section class="home d-flex align-items-center"> 
+      <section class="home d-flex align-items-center" data-scroll-index="0"> 
         <div class="effect-wrap">
           <i class="fas fa-plus effect effect-1"></i>
           <i class="fas fa-plus effect effect-2"></i>
@@ -64,7 +64,7 @@
                       <h1> GO-WASTE</h1>
                       <P>Go-Waste sebuah platform yang dapat memudahkan mu dalam mengelolah sampah dan dapat menyulap sampah menjadi uang digital</P>
                       <div class="home-btn">
-                          <a href="#" class="btn btn-1">download app</a>
+                          <a data-scroll-goto="3" href="#" class="btn btn-1">download app</a>
                       </div>
                     </div>
                   </div>
@@ -80,7 +80,7 @@
       </section>
     <!-- Pilihan Home -->
     <!-- Feature Section Start -->
-      <section class="features section-padding">
+      <section class="features section-padding" data-scroll-index="1">
         <div class="container">
           <div class="row justify-content-center">
             <div class="col-lg-8">
@@ -160,7 +160,7 @@
     </section>
     <!--End Fun Fact Section Start -->
     <!-- apps screen -->
-    <section class="app-screenshots section-padding">
+    <section class="app-screenshots section-padding" data-scroll-index="2">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
@@ -194,19 +194,8 @@
       </div>
     </section>
     <!--end apps screen -->
-    <!-- vidio popup start -->
-    <div class="video-popup">
-      <div class="video-popup-inner">
-        <i class="fas fa-times video-popup-close"></i>
-        <div class="iframe-box">
-        <iframe id="player-1"  src="https://www.youtube.com/embed/IXudGoAm-BY" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      </div>
-    </div>
-    <!-- vidio popup end -->
-
     <!-- App Download Section Start -->
-    <section class="app-download section-padding">
+    <section class="app-download section-padding" data-scroll-index="3">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
@@ -244,7 +233,7 @@
   </div>
   </section>
     <!--Testimonial section start -->
-  <section class="testimonials section-padding">
+  <section class="testimonials section-padding" data-scroll-index="4">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-8">
@@ -310,7 +299,7 @@
     <!--Testimonial section end -->
 
     <!-- Lisensi section Start -->
-    <section class="pricing section-padding">
+    <section class="pricing section-padding" data-scroll-index="5">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-8">
@@ -320,7 +309,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-lg-6">
+          <div class="col-lg-3 col-lg-6">
             <div class="pricing-plan">
               <div class="pricing-header">
                 <h3>Basic</h3>
@@ -403,7 +392,7 @@
       </section>
     <!-- Tim Section End-->
     <!-- Contact Section Start -->
-    <section class="contact section-padding">
+    <section class="contact section-padding" data-scroll-index="6">
      <div class="container">
        <div class="row justify-content-center">
          <div class="col-lg-8">
@@ -535,17 +524,17 @@
       </div>
     </footer>
     <!-- Footer End -->
-  <!-- jquery js -->
-<script src="assets/js/jquery.min.js"></script>
-<!-- popper js -->
-<script src="assets/js/popper.min.js"></script>
-<!-- bootstrap js -->
-<script src="assets/js/bootstrap.min.js"></script>
-<!-- owl carousel js -->
-<script src="assets/js/owl.carousel.min.js"></script>
-<!-- ScrollIt js -->
-<script src="assets/js/scrollIt.min.js"></script>
-<!-- main js -->
-<script src="assets/js/main.js"></script>
+    <!-- jquery js -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- popper js -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- owl carousel js -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- ScrollIt js -->
+    <script src="assets/js/scrollIt.min.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
