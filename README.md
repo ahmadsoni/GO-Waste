@@ -11,9 +11,10 @@
 
 
 
+
 - 💪🏼 di kedepan nya semoga bisa lebih baik lagi dalam desain web saya.
-[website]: https://go-waste.vercel.app/
-[instagram]: https://www.instagram.com/ahhmadshonhaji/
+📚: https://go-waste.vercel.app/
+[<img src="https://raw.githubusercontent.com/Delta456/Delta456/master/img/instagram.jpg" alt="instagram logo" width="24">](https://www.instagram.com/ahhmadshonhaji/) 
 [linkedin]: https://www.linkedin.com/in/ahmadshonhaji/
 
 
