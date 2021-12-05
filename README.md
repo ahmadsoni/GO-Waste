@@ -5,7 +5,7 @@
 ## Deskripsi Singkat
 
 - 📚 Ini adalah Project Website saya untuk melengkapi tugas Web desain
-- ⚡ ini adalah Web Desain saya dengan mengangkat tema untuk company profile
+- ⚡ Pada kali Ini saya membuat Web Desain saya dengan mengangkat tema untuk company profile saya yaitu
 -  GO-Waste sebuah perusahan yang sedang di rintis untuk kepedulian lingkungan dalam pengelolaan sampah.
 
 - 🌐 Saya membuat websie saya dengan : &#160; ![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
