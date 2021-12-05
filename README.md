@@ -1,4 +1,4 @@
-# Halo Semua - Saya Ahmad Shonhaji  👋 <img width="30px" src="" />
+# Halo Semua - Saya Ahmad Shonhaji  👋 
 
 <img align="right" alt="GIF" height="160px" src="https://raw.githubusercontent.com/JoeyBling/JoeyBling/master/pic/pusheencode.gif" />
 
